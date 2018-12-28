@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hhfhhfhfoba"
+    android:orientation="vertical"
+    tools:context="com.example.gabarty.medicineapplication.SignUpActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cellborder"
+        android:hint="username"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cellborder"
+        android:hint="name"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cellborder"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cellborder"
+        android:hint="mobile"
+        android:inputType="phone"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cellborder"
+        android:hint="address"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="password"
+        android:background="@drawable/cellborder"
+        android:inputType="textPassword"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="confirm password"
+        android:background="@drawable/cellborder"
+        android:inputType="textPassword"
+        android:padding="6dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#0022ff"
+        android:textColor="#FFF"
+        android:onClick="SignUp"
+        android:text="sign up"/>
+
+
+</LinearLayout>
